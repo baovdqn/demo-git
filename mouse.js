@@ -3,4 +3,5 @@ function Mouse(name){
 }
 
 demo
+console.log(name);
 module.export = Mouse;
