@@ -3,4 +3,6 @@ function Cat(name){
     console.log(name);
 }
 
+hello
+
 module.export = Cat;
