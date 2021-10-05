@@ -7,4 +7,6 @@ Mouse.prototype.eat = () => {
     123
 }
 
+console.log('Day la file Mouse')
+
 module.export = Mouse;
