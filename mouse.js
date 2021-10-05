@@ -2,6 +2,8 @@ function Mouse(name){
     this.name = name;
 }
 
-demo
-console.log(name);
+Mouse.prototype.eat = () => {
+    console.log();
+}
+
 module.export = Mouse;

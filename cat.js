@@ -3,6 +3,6 @@ function Cat(name){
     console.log(name);
 }
 
-hello
+Cat.prototype.eat = () => console.log()
 
 module.export = Cat;
