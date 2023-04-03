@@ -2,11 +2,8 @@ function Mouse(name){
     this.name = name;
 }
 
-Mouse.prototype.eat = () => {
-    console.log();
-    123
+Mouse.prototype.sleep = () => {
+    console.log('zzzz');
 }
-
-console.log('Day la file Mouse')
 
 module.export = Mouse;

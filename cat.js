@@ -1,9 +1,9 @@
 function Cat(name){
     this.name = name;
-    console.log(name);
 }
+Cat.prototype.sleep = () => console.log('mmmm');
 
-Cat.prototype.eat = () => console.log();
-
-
+const tom = new Cat('tom')
+tom.sleep();
+console.log(tom)
 module.export = Cat;
